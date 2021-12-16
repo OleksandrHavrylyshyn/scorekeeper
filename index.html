@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="widget">
+        <img src="https://odessa-life.od.ua/wp-content/uploads/2019/10/nastolniy-tennis-fitness-1280x720.jpg">
+        <p class="title">Ping Pong Score Keeper</p>
+        <h1><span id="pOne">0</span> to <span id="pTwo">0</span></h1>
+        <p>Use buttons below to keep score</p>
+        <div class="selector">
+            <h4>Playing To</h4>
+            <select id="sel">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+        <button class="p1Button">+1 Player One</button>
+        <button class="p2Button">+1 Player Two</button>
+        <button class="resetButton">Reset</button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
